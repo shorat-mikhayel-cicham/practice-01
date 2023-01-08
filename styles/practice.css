@@ -1,0 +1,162 @@
+/* my practice -01 styles */
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-style: normal;
+    font-family: 'Work sans';
+}
+
+/* banner styles  */
+
+.header {
+    background-image: url(../images/banner/banner1.png);
+    height: 800px;
+    width: 1600px;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    text-align: right;
+    padding: 250px 200px 0 700px;
+    width: 600px;
+    height: auto;
+    justify-items: right;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700px;
+    padding-bottom: 24px;
+}
+
+.banner-description {
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 24px;
+    color: rgb(83, 61, 61);
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    background-color: aqua;
+    padding: 14px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+/* personality styles */
+
+.section-1 {
+    background-image: url(../images/person.png);
+    height: 800px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    margin: 131px 0;
+}
+
+.personality {
+    display: block;
+    justify-content: right;
+    padding: 200px 200px 0 800px;
+}
+
+.personality-title {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.personality-description {
+    color: rgb(83, 61, 61);
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.list-item {
+    color: rgb(83, 61, 61);
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+/* my plans section styles */
+.heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700px;
+}
+
+.plans-item {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 131px;
+    padding-bottom: 131px;
+}
+
+.plans-title {
+    font-size: 30px;
+    font-weight: 450px;
+    padding: 26px 0 8px;
+}
+
+.plans-description {
+    color: rgb(83, 61, 61);
+}
+
+/* linear gradient styles*/
+
+.watch-image {
+    background-image: url(../images/watch.png);
+    width: auto;
+    height: 300px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: 230px;
+    margin-bottom: 131px;
+    position: relative;
+}
+
+.linear-style {
+    background: linear-gradient(90deg, #b13605 0%, rgba(251, 91, 34, 0) 100%);
+    border-radius: 8px;
+    position: relative;
+    opacity: 0.9;
+    width: auto;
+    height: 300px;
+}
+
+.linear-description {
+    padding: 35px 0 0 36px;
+}
+
+.linear-description .btn-primary {
+    margin-left: 100px;
+    margin-top: 24px;
+} 
+
+.linear-caption {
+    font-size: 50px;
+    font-weight: 600px;
+    padding: 45px 0 0 16px;
+    color: rgb(9, 52, 179);
+}
+
+/* footer section description styles */
+
+.footer-info {
+    background-color: black;
+    height: 700px;
+    width: auto;
+    color: white;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 68px;
+}
